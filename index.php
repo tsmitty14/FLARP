@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html>
 <?php
 //$link = mysqli_connect($_SERVER['RDS_HOSTNAME'], $_SERVER['RDS_USERNAME'], $_SERVER['RDS_PASSWORD'], $_SERVER['RDS_DB_NAME'], $_SERVER['RDS_PORT']);
@@ -8,7 +8,7 @@ if (!$link) {
 die('Could not connect: ' . mysql_error());
 }
 
-echo 'Connected successfully';
+// echo 'Connected successfully';
 
 
 mysql_close($link);
@@ -43,18 +43,13 @@ mysql_close($link);
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav">
-			        <li class="inactive"><a href="#">Players <span class="sr-only">(current)</span></a></li>
-			        <li><a href="#">Teams</a></li>
+				  <li class = "inactive"><a href="About.php">About</a></li>
+			        <li class="inactive"><a href="Players.php">Players <span class="sr-only">(current)</span></a></li>
+			        <li><a href="Teams.php">Teams</a></li>
 			        <li><a href="Coaches.php">Coaches</a></li>
-			       
+			        <li><a href="register.php">Register a Player</a></li>
 			      </ul>
-<!-->			      <form class="navbar-form navbar-left" role="search">
-			        <div class="form-group">
-			          <input type="text" class="form-control" placeholder="Search">
-			        </div>
-			        <button type="submit" class="btn btn-default">Submit</button>
-			      </form>
-			      -->
+
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
 			
@@ -73,8 +68,8 @@ mysql_close($link);
 			<div class="container">
 			<div class ="row">
 			<div class="col-sm-4"><a href="Players.php" style="width:360px;height:500px"><img src="players1.jpg" alt="Players" style="width:360px;height:500px;"></div>
-			<div class="col-sm-4"><a href="Teams.php" style="width:360px;height:500px"><img src="coolpic2.png" alt="Teams" style="width:360px;height:500px;"></div>
-			<div class="col-sm-4"><a href="Coaches.php" style="width:360px;height:500px"><img src="coolpic2.png" alt="Coaches" style="width:360px;height:500px;"></div>
+			<div class="col-sm-4"><a href="Teams.php" style="width:360px;height:500px"><img src="Court1.png" alt="Teams" style="width:360px;height:500px;"></div>
+			<div class="col-sm-4"><a href="Coaches.php" style="width:360px;height:500px"><img src="coach1.png" alt="Coaches" style="width:360px;height:500px;"></div>
 			</div>
 			</div>
 			</header>
