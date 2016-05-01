@@ -58,7 +58,7 @@
 				<div class="panel panel-default">
 				  <div class="panel-heading">
 				    
-					<img src="jintro.jpg" alt="jintro" style="width:516px;height:516px;">
+					<img src="jinrob.jpg" alt="jintro" style="width:516px;height:516px;">
 					<h1>About:</h1> <br>
 Jintro's basketball camp is place where all kids can go to learn what it's like to be on a real b-ball team. Run by GW's own Jintro Pauly,
 we train your kids to play with the best of the best at our state-of-the-art facility in South-West North Dakota. Over the course of 40 fun-filled weeks, we will morph your children from the ones 

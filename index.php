@@ -7,9 +7,18 @@ $link = mysqli_connect("aavj4l123o7mv1.cl7ycbbt20fx.us-west-2.rds.amazonaws.com"
 if (!$link) {
 die('Could not connect: ' . mysql_error());
 }
-
+/*
 // echo 'Connected successfully';
-
+$sql = ("SELECT Team FROM Players WHERE Players 
+(Name,Age,Height,Weight, SkillLevel, MVPCount, Team) VALUES('$name', '$age', '$height', '$weight', 0, 0, '$team') ");
+$success = 0;
+if ($link->query($sql) === TRUE) {
+	$success = 1;
+ //   echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $link->error;
+}
+*/
 
 mysql_close($link);
 ?>

@@ -47,7 +47,8 @@
 					</div>
 					</div>
 					</div>
+				<div class="container">
 					<div class="col-sm-4"><a href="Players.php" style="width:360px;height:500px" align="center"><img src="players2.jpg" alt="Players" style="width:600px;height:600px;"></div>
-
+				</div>
 </div>		
 	</body>
